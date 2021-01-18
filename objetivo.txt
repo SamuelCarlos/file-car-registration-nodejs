@@ -1,0 +1,8 @@
+Quero um serviço em nodejs, que guarde dados pra mim num arquivo de texto local (no diretório do servidor).
+Quero um POST, pra adicionar um carro num estacionamento, quero que salve os seguintes dados: 
+(identificação (procure por uuid), Marca, Modelo, Placa, Data de Criação)
+Cada linha no tex vai ser um dado.
+Um put, pra editar os dados providenciado uma identificação do usuário
+Um delete pra apagar o usuário
+Um get pra pegar um usuário
+Uma listagem simples que mostre todos os carros que existem, dada certa dada de inicio como parâmetro (ou não) (somente retornar Modelo do carro e placa nesse método).
