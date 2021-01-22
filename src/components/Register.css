@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+.main {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 60vh;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+  width: 90%;
+  height: 90%;
+  justify-content: center;
+}
+
+label {
+  text-align: left;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input.submit {
+  border: none;
+  background-color: #282c34;
+  color: white;
+  padding: 2%;
+  border-radius: 3px;
+}
+
+input.submit:hover {
+  background-color: #77867f;
+  color: black;
+}

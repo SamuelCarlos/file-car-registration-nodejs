@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Excedent from "./body.js";
+import { Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+        <a className="link" href="/">
+          <h1>Car Tag Registrator</h1>
         </a>
       </header>
+      <Excedent />
+      <footer className="App-footer">
+        <h6>
+          <a href="https://github.com/SamuelCarlos">By Samuel Carlos</a>
+        </h6>
+      </footer>
     </div>
   );
 }
